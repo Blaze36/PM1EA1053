@@ -6,7 +6,7 @@ Catedrático: Ing. Ricardo Enrique Lagos Mendoza
 
 | | |
 |---|---|
-| **Estudiante** | **[COMPLETAR: nombre completo]** |
+| **Estudiante** | **Oliver Claudio Avila Castillo** |
 | **Cuenta** | 202310011053 |
 | **Modalidad** | Individual |
 
