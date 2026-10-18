@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agenda de Contactos</string>
+
+    <!-- Títulos de pantallas -->
+    <string name="titulo_registro">Registro de contacto</string>
+    <string name="titulo_actualizar">Actualizar contacto</string>
+    <string name="titulo_lista">Mis contactos</string>
+    <string name="titulo_llamar">Llamar</string>
+
+    <!-- Registro -->
+    <string name="desc_foto">Fotografía del contacto</string>
+    <string name="label_pais">País</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_telefono">Teléfono (8 dígitos)</string>
+    <string name="hint_nota">Nota (opcional)</string>
+    <string name="btn_camara">Tomar foto</string>
+    <string name="btn_galeria">Galería</string>
+    <string name="btn_guardar">Guardar contacto</string>
+    <string name="btn_actualizar">Actualizar contacto</string>
+    <string name="btn_ver_contactos">Ver contactos</string>
+    <string name="msg_guardado">Contacto guardado correctamente</string>
+    <string name="msg_actualizado">Contacto actualizado correctamente</string>
+    <string name="msg_error_guardar">No se pudo guardar el contacto</string>
+    <string name="msg_sin_camara">No se encontró una aplicación de cámara</string>
+    <string name="msg_error_imagen">No se pudo cargar la imagen seleccionada</string>
+    <string name="msg_no_encontrado">El contacto ya no existe</string>
+    <string name="alerta_titulo">Revise los datos</string>
+
+    <!-- Lista -->
+    <string name="lista_vacia">No hay contactos guardados</string>
+    <string name="opcion_ver_imagen">Ver imagen</string>
+    <string name="opcion_compartir">Compartir</string>
+    <string name="opcion_llamar">Llamar</string>
+    <string name="opcion_actualizar">Actualizar</string>
+    <string name="opcion_eliminar">Eliminar</string>
+    <string name="msg_sin_imagen">Este contacto no tiene una imagen guardada</string>
+    <string name="compartir_titulo">Compartir contacto</string>
+    <string name="compartir_texto">Contacto: %1$s\nTeléfono: %2$s\nPaís: %3$s</string>
+    <string name="compartir_nota">\nNota: %1$s</string>
+    <string name="confirmar_eliminar_titulo">Eliminar contacto</string>
+    <string name="confirmar_eliminar">¿Desea eliminar a %1$s?</string>
+    <string name="msg_eliminado">Contacto eliminado</string>
+    <string name="msg_error_eliminar">No se pudo eliminar el contacto</string>
+
+    <!-- Llamar -->
+    <string name="btn_llamar">Llamar</string>
+    <string name="confirmar_llamada_titulo">Confirmar llamada</string>
+    <string name="confirmar_llamada">¿Desea llamar a %1$s?\n\nTeléfono: %2$s</string>
+    <string name="permiso_titulo">Permiso necesario</string>
+    <string name="permiso_explicacion">Para realizar la llamada la aplicación necesita el permiso de teléfono. Sin él no es posible marcar desde la agenda.</string>
+    <string name="permiso_denegado_titulo">Permiso denegado</string>
+    <string name="permiso_denegado_msg">No se puede llamar sin el permiso de teléfono. Puede activarlo manualmente en los ajustes de la aplicación.</string>
+    <string name="msg_permiso_denegado">Permiso de llamada denegado</string>
+    <string name="msg_no_llamada">No se pudo iniciar la llamada</string>
+
+    <!-- Botones comunes -->
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="conceder">Conceder permiso</string>
+    <string name="abrir_ajustes">Abrir ajustes</string>
+
+    <string-array name="paises">
+        <item>Seleccione un país</item>
+        <item>Honduras</item>
+        <item>Guatemala</item>
+        <item>El Salvador</item>
+        <item>Nicaragua</item>
+        <item>Costa Rica</item>
+        <item>Panamá</item>
+        <item>Belice</item>
+        <item>México</item>
+        <item>Colombia</item>
+        <item>Venezuela</item>
+        <item>Ecuador</item>
+        <item>Perú</item>
+        <item>Chile</item>
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Estados Unidos</item>
+        <item>Canadá</item>
+        <item>España</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

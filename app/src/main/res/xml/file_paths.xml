@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- filesDir/fotos/ : carpeta donde se guardan las fotografías de los contactos -->
+    <files-path
+        name="fotos"
+        path="fotos/" />
+</paths>

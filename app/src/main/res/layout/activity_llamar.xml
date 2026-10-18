@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/ivFotoLlamar"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_avatar"
+            android:clipToOutline="true"
+            android:contentDescription="@string/desc_foto"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/azul"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/tvNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLlamar"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/btn_llamar"
+            android:textSize="18sp"
+            app:backgroundTint="@color/verde"
+            app:icon="@drawable/ic_call" />
+    </LinearLayout>
+</ScrollView>
