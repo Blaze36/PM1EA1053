@@ -56,7 +56,4 @@ app/src/main/java/com/uth/pm1ea1053/
 └── view/         RegistroActivity, ListaActivity, LlamarActivity, ContactoAdapter
 ```
 
-## Cómo ejecutarla
-1. Abrir la carpeta del proyecto con **Android Studio** y esperar la sincronización de Gradle.
-2. Ejecutar en un dispositivo real o emulador (minSdk 24).
-3. Para probar la llamada conviene un dispositivo físico con SIM.
+
